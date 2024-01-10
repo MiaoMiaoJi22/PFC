@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body{
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.formulario__input-error{
+    font-size: 15px;
+    margin: 10px 0px;
+    color: #ff0000;
+    display: none;
+}
+
+.formulario__input-error-activo{
+    display: block;
+}
+
+.cont{
+    display: grid;
+    place-items: center;
+}
+
+.cont .login{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.port{
+    background: linear-gradient(135deg, #9b59b6, #00ffff);
+    width: 100%;
+    height: 660px;
+}
+
+.port img{
+    width: 350px;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.wrapper{
+    margin: 80px auto;
+    width: 50%;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.wrapper .fa-arrow-left{
+    font-size: 40px;
+    margin-left: 2px;
+    color: black;
+}
+
+.wrapper .fa-arrow-left:hover{
+    color: #9b59b6;
+}
+
+.wrapper form {
+    padding: 10px 20px 25px 20px;
+}
+
+.wrapper form h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+}
+
+form .row input:focus{
+    border-color: #99bbff;
+    box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+}
+
+.wrapper form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 5px 0 0 5px;
+}
+
+.wrapper form .row .fa-user, .wrapper form .row .fa-lock, .wrapper form .row .fa-envelope{
+    border: 1px solid #99bbff;
+    background: #99bbff;
+}
+
+
+.wrapper form .row .fa-eye-slash, .wrapper form .row .fa-eye{
+    background: transparent;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.wrapper form .button input{
+    padding-left: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    background: #99bbff;
+    cursor: pointer;
+    border: 1px solid #99bbff;
+    transition: all 0.3s ease;
+}
+
+form .button input:hover{
+    background: #6699ff;
+}
+
+.wrapper form .olvidado{
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper form .olvidado a{
+    color: #0000ff;
+    font-size: 17px;
+}
+
+.wrapper form .signup-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.wrapper form .signup-link a{
+    color: #0000ff;
+}
+
+.wrapper a.EntrarInicio{
+    padding: 20px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background: #99bbff;
+    font-size: 20px;
+    border-radius: 5px 5px 0 0;
+    text-decoration: none;
+    color: black;
+}
+
+
+.wrapper a.EntrarInicio:hover{
+    background: #6699ff;
+}
